@@ -1,0 +1,7 @@
+E:\COS20007\2025-HX05-COS20007-Object-Oriented-Programming\Clock\TestClock\bin\Debug\net9.0\CoverletSourceRootsMapping_TestClock
+E:\COS20007\2025-HX05-COS20007-Object-Oriented-Programming\Clock\TestClock\obj\Debug\net9.0\TestClock.csproj.AssemblyReference.cache
+E:\COS20007\2025-HX05-COS20007-Object-Oriented-Programming\Clock\TestClock\obj\Debug\net9.0\TestClock.GeneratedMSBuildEditorConfig.editorconfig
+E:\COS20007\2025-HX05-COS20007-Object-Oriented-Programming\Clock\TestClock\obj\Debug\net9.0\TestClock.AssemblyInfoInputs.cache
+E:\COS20007\2025-HX05-COS20007-Object-Oriented-Programming\Clock\TestClock\obj\Debug\net9.0\TestClock.AssemblyInfo.cs
+E:\COS20007\2025-HX05-COS20007-Object-Oriented-Programming\Clock\TestClock\obj\Debug\net9.0\TestClock.csproj.CoreCompileInputs.cache
+E:\COS20007\2025-HX05-COS20007-Object-Oriented-Programming\Clock\TestClock\obj\Debug\net9.0\TestClock.sourcelink.json

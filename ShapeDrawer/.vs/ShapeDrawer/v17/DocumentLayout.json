@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\COS20007\\2025-HX05-COS20007-Object-Oriented-Programming\\ShapeDrawer\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{86A3F6DA-E129-D76D-3CB8-FAD5404BF70F}|ShapeDrawer.csproj|e:\\cos20007\\2025-hx05-cos20007-object-oriented-programming\\shapedrawer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86A3F6DA-E129-D76D-3CB8-FAD5404BF70F}|ShapeDrawer.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86A3F6DA-E129-D76D-3CB8-FAD5404BF70F}|ShapeDrawer.csproj|e:\\cos20007\\2025-hx05-cos20007-object-oriented-programming\\shapedrawer\\shape.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86A3F6DA-E129-D76D-3CB8-FAD5404BF70F}|ShapeDrawer.csproj|solutionrelative:shape.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86A3F6DA-E129-D76D-3CB8-FAD5404BF70F}|ShapeDrawer.csproj|e:\\cos20007\\2025-hx05-cos20007-object-oriented-programming\\shapedrawer\\shapedrawer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{86A3F6DA-E129-D76D-3CB8-FAD5404BF70F}|ShapeDrawer.csproj|solutionrelative:shapedrawer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ShapeDrawer",
+              "DocumentMoniker": "E:\\COS20007\\2025-HX05-COS20007-Object-Oriented-Programming\\ShapeDrawer\\ShapeDrawer.csproj",
+              "RelativeDocumentMoniker": "ShapeDrawer.csproj",
+              "ToolTip": "E:\\COS20007\\2025-HX05-COS20007-Object-Oriented-Programming\\ShapeDrawer\\ShapeDrawer.csproj",
+              "RelativeToolTip": "ShapeDrawer.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-21T19:54:42.624Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Shape.cs",
+              "DocumentMoniker": "E:\\COS20007\\2025-HX05-COS20007-Object-Oriented-Programming\\ShapeDrawer\\Shape.cs",
+              "RelativeDocumentMoniker": "Shape.cs",
+              "ToolTip": "E:\\COS20007\\2025-HX05-COS20007-Object-Oriented-Programming\\ShapeDrawer\\Shape.cs",
+              "RelativeToolTip": "Shape.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T19:14:56.054Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\COS20007\\2025-HX05-COS20007-Object-Oriented-Programming\\ShapeDrawer\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "E:\\COS20007\\2025-HX05-COS20007-Object-Oriented-Programming\\ShapeDrawer\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T19:09:51.747Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\COS20007\\2025-HX05-COS20007-Object-Oriented-Programming\\TestSwin-Adventure\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{34DFE27E-1B13-4DC4-068D-B5553349DC5C}|TestSwin_Adventure.csproj|e:\\cos20007\\2025-hx05-cos20007-object-oriented-programming\\testswin-adventure\\testlookcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34DFE27E-1B13-4DC4-068D-B5553349DC5C}|TestSwin_Adventure.csproj|solutionrelative:testlookcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34DFE27E-1B13-4DC4-068D-B5553349DC5C}|TestSwin_Adventure.csproj|e:\\cos20007\\2025-hx05-cos20007-object-oriented-programming\\testswin-adventure\\testbag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34DFE27E-1B13-4DC4-068D-B5553349DC5C}|TestSwin_Adventure.csproj|solutionrelative:testbag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34DFE27E-1B13-4DC4-068D-B5553349DC5C}|TestSwin_Adventure.csproj|e:\\cos20007\\2025-hx05-cos20007-object-oriented-programming\\testswin-adventure\\testihaveinventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34DFE27E-1B13-4DC4-068D-B5553349DC5C}|TestSwin_Adventure.csproj|solutionrelative:testihaveinventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34DFE27E-1B13-4DC4-068D-B5553349DC5C}|TestSwin_Adventure.csproj|e:\\cos20007\\2025-hx05-cos20007-object-oriented-programming\\testswin-adventure\\testcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34DFE27E-1B13-4DC4-068D-B5553349DC5C}|TestSwin_Adventure.csproj|solutionrelative:testcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34DFE27E-1B13-4DC4-068D-B5553349DC5C}|TestSwin_Adventure.csproj|e:\\cos20007\\2025-hx05-cos20007-object-oriented-programming\\testswin-adventure\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34DFE27E-1B13-4DC4-068D-B5553349DC5C}|TestSwin_Adventure.csproj|solutionrelative:unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34DFE27E-1B13-4DC4-068D-B5553349DC5C}|TestSwin_Adventure.csproj|e:\\cos20007\\2025-hx05-cos20007-object-oriented-programming\\testswin-adventure\\testswin_adventure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{34DFE27E-1B13-4DC4-068D-B5553349DC5C}|TestSwin_Adventure.csproj|solutionrelative:testswin_adventure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TestIHaveInventory.cs",
+              "DocumentMoniker": "E:\\COS20007\\2025-HX05-COS20007-Object-Oriented-Programming\\TestSwin-Adventure\\TestIHaveInventory.cs",
+              "RelativeDocumentMoniker": "TestIHaveInventory.cs",
+              "ToolTip": "E:\\COS20007\\2025-HX05-COS20007-Object-Oriented-Programming\\TestSwin-Adventure\\TestIHaveInventory.cs",
+              "RelativeToolTip": "TestIHaveInventory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T13:23:54.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TestLookCommand.cs",
+              "DocumentMoniker": "E:\\COS20007\\2025-HX05-COS20007-Object-Oriented-Programming\\TestSwin-Adventure\\TestLookCommand.cs",
+              "RelativeDocumentMoniker": "TestLookCommand.cs",
+              "ToolTip": "E:\\COS20007\\2025-HX05-COS20007-Object-Oriented-Programming\\TestSwin-Adventure\\TestLookCommand.cs",
+              "RelativeToolTip": "TestLookCommand.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAQwFMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T13:23:27.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TestCommand.cs",
+              "DocumentMoniker": "E:\\COS20007\\2025-HX05-COS20007-Object-Oriented-Programming\\TestSwin-Adventure\\TestCommand.cs",
+              "RelativeDocumentMoniker": "TestCommand.cs",
+              "ToolTip": "E:\\COS20007\\2025-HX05-COS20007-Object-Oriented-Programming\\TestSwin-Adventure\\TestCommand.cs",
+              "RelativeToolTip": "TestCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T13:22:15.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TestBag.cs",
+              "DocumentMoniker": "E:\\COS20007\\2025-HX05-COS20007-Object-Oriented-Programming\\TestSwin-Adventure\\TestBag.cs",
+              "RelativeDocumentMoniker": "TestBag.cs",
+              "ToolTip": "E:\\COS20007\\2025-HX05-COS20007-Object-Oriented-Programming\\TestSwin-Adventure\\TestBag.cs",
+              "RelativeToolTip": "TestBag.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAApwB4AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T08:24:34.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "E:\\COS20007\\2025-HX05-COS20007-Object-Oriented-Programming\\TestSwin-Adventure\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "UnitTest1.cs",
+              "ToolTip": "E:\\COS20007\\2025-HX05-COS20007-Object-Oriented-Programming\\TestSwin-Adventure\\UnitTest1.cs",
+              "RelativeToolTip": "UnitTest1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T10:13:24.506Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TestSwin_Adventure.csproj",
+              "DocumentMoniker": "E:\\COS20007\\2025-HX05-COS20007-Object-Oriented-Programming\\TestSwin-Adventure\\TestSwin_Adventure.csproj",
+              "RelativeDocumentMoniker": "TestSwin_Adventure.csproj",
+              "ToolTip": "E:\\COS20007\\2025-HX05-COS20007-Object-Oriented-Programming\\TestSwin-Adventure\\TestSwin_Adventure.csproj",
+              "RelativeToolTip": "TestSwin_Adventure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-06T17:45:56.742Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\COS20007\\Assigment\\Counter\\CounterTask.csproj": {}
+    "E:\\COS20007\\2025-HX05-COS20007-Object-Oriented-Programming\\Counter\\CounterTask.csproj": {}
   },
   "projects": {
-    "E:\\COS20007\\Assigment\\Counter\\CounterTask.csproj": {
+    "E:\\COS20007\\2025-HX05-COS20007-Object-Oriented-Programming\\Counter\\CounterTask.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\COS20007\\Assigment\\Counter\\CounterTask.csproj",
+        "projectUniqueName": "E:\\COS20007\\2025-HX05-COS20007-Object-Oriented-Programming\\Counter\\CounterTask.csproj",
         "projectName": "CounterTask",
-        "projectPath": "E:\\COS20007\\Assigment\\Counter\\CounterTask.csproj",
+        "projectPath": "E:\\COS20007\\2025-HX05-COS20007-Object-Oriented-Programming\\Counter\\CounterTask.csproj",
         "packagesPath": "C:\\Users\\huynh\\.nuget\\packages\\",
-        "outputPath": "E:\\COS20007\\Assigment\\Counter\\obj\\",
+        "outputPath": "E:\\COS20007\\2025-HX05-COS20007-Object-Oriented-Programming\\Counter\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\COS20007\\Assigment\\HelloWorld\\HelloWorld.csproj",
+      "projectUniqueName": "E:\\COS20007\\2025-HX05-COS20007-Object-Oriented-Programming\\HelloWorld\\HelloWorld.csproj",
       "projectName": "HelloWorld",
-      "projectPath": "E:\\COS20007\\Assigment\\HelloWorld\\HelloWorld.csproj",
+      "projectPath": "E:\\COS20007\\2025-HX05-COS20007-Object-Oriented-Programming\\HelloWorld\\HelloWorld.csproj",
       "packagesPath": "C:\\Users\\huynh\\.nuget\\packages\\",
-      "outputPath": "E:\\COS20007\\Assigment\\HelloWorld\\obj\\",
+      "outputPath": "E:\\COS20007\\2025-HX05-COS20007-Object-Oriented-Programming\\HelloWorld\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

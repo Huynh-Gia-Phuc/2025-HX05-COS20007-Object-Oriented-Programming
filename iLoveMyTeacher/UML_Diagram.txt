@@ -1,0 +1,70 @@
++------------------------+
+|     <<abstract>>       |
+|        Thing           |
++------------------------+
+| - _name: string        |
++------------------------+
+| + Thing(name: string)  |
+| + <<abstract>> Size(): int |
+| + <<abstract>> Print(): void |
+| + Name: string {get}   |
++------------------------+
+           ▲
+           |
+           |
++------------------------+
+|        File            |
++------------------------+
+| - _extention: string   |
+| - _size: int           |
++------------------------+
+| + File(name: string,   |
+|        extention: string, |
+|        size: int)      |
+| + Size(): int          |
+| + Print(): void        |
++------------------------+
+
++------------------------+
+|       Folder           |
++------------------------+
+| - _content: List<Thing> |
++------------------------+
+| + Folder(name: string) |
+| + Add(toAdd: Thing): void |
+| + Size(): int          |
+| + Print(): void        |
++------------------------+
+
++------------------------+
+|      FileSystem        |
++------------------------+
+| - _content: List<Thing> |
++------------------------+
+| + FileSystem()         |
+| + Add(toAdd: Thing): void |
+| + PrintContent(): void |
++------------------------+
+
++------------------------+
+|       Program          |
++------------------------+
+| + Main(args: string[]): void |
+| + CreateFiles(fileSystem: FileSystem, |
+|               count: int, |
+|               studentId: string, |
+|               random: Random, |
+|               startIndex: int): void |
+| + CreateFiles(folder: Folder, |
+|               count: int, |
+|               studentId: string, |
+|               random: Random, |
+|               startIndex: int): void |
++------------------------+
+
+RELATIONSHIPS:
+- File inherits from Thing
+- Folder inherits from Thing
+- Folder contains 0..* Thing (composition)
+- FileSystem contains 0..* Thing (composition)
+- Program uses FileSystem and Folder (dependency) 

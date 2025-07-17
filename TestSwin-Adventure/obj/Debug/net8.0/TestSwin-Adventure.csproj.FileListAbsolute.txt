@@ -1,0 +1,7 @@
+E:\COS20007\2025-HX05-COS20007-Object-Oriented-Programming\TestSwin-Adventure\obj\Debug\net8.0\TestSwin-Adventure.csproj.AssemblyReference.cache
+E:\COS20007\2025-HX05-COS20007-Object-Oriented-Programming\TestSwin-Adventure\obj\Debug\net8.0\TestSwin-Adventure.GeneratedMSBuildEditorConfig.editorconfig
+E:\COS20007\2025-HX05-COS20007-Object-Oriented-Programming\TestSwin-Adventure\obj\Debug\net8.0\TestSwin-Adventure.AssemblyInfoInputs.cache
+E:\COS20007\2025-HX05-COS20007-Object-Oriented-Programming\TestSwin-Adventure\obj\Debug\net8.0\TestSwin-Adventure.AssemblyInfo.cs
+E:\COS20007\2025-HX05-COS20007-Object-Oriented-Programming\TestSwin-Adventure\obj\Debug\net8.0\TestSwin-Adventure.csproj.CoreCompileInputs.cache
+E:\COS20007\2025-HX05-COS20007-Object-Oriented-Programming\TestSwin-Adventure\obj\Debug\net8.0\TestSwin-Adventure.sourcelink.json
+E:\COS20007\2025-HX05-COS20007-Object-Oriented-Programming\TestSwin-Adventure\bin\Debug\net8.0\CoverletSourceRootsMapping_TestSwin-Adventure

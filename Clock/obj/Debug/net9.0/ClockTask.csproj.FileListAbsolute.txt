@@ -1,0 +1,5 @@
+E:\COS20007\2025-HX05-COS20007-Object-Oriented-Programming\Clock\obj\Debug\net9.0\ClockTask.GeneratedMSBuildEditorConfig.editorconfig
+E:\COS20007\2025-HX05-COS20007-Object-Oriented-Programming\Clock\obj\Debug\net9.0\ClockTask.AssemblyInfoInputs.cache
+E:\COS20007\2025-HX05-COS20007-Object-Oriented-Programming\Clock\obj\Debug\net9.0\ClockTask.AssemblyInfo.cs
+E:\COS20007\2025-HX05-COS20007-Object-Oriented-Programming\Clock\obj\Debug\net9.0\ClockTask.csproj.CoreCompileInputs.cache
+E:\COS20007\2025-HX05-COS20007-Object-Oriented-Programming\Clock\obj\Debug\net9.0\ClockTask.sourcelink.json
