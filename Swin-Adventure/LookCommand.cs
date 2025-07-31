@@ -17,7 +17,7 @@ namespace Swin_Adventure
             if (text.Length == 2 && text[0] == "look" && text[1] == "around")
             {
                 if (p.Location != null)
-                    return p.Location.FullDescription;
+                    return GetLocationDescription(p.Location);
                 else
                     return "You are nowhere.";
             }
@@ -26,7 +26,7 @@ namespace Swin_Adventure
             if (text.Length == 3 && text[0] == "look" && text[1] == "at" && text[2] == "location")
             {
                 if (p.Location != null)
-                    return p.Location.FullDescription;
+                    return GetLocationDescription(p.Location);
                 else
                     return "You are nowhere.";
             }
@@ -59,6 +59,52 @@ namespace Swin_Adventure
             }
 
             return LookAtIn(itemId, container);
+        }
+
+        private string GetLocationDescription(Location location)
+        {
+            StringBuilder description = new StringBuilder();
+            
+            // Add location name and description
+            description.AppendLine($"You are in {location.Name}");
+            description.AppendLine(location.FullDescription);
+            
+            // Add available exits
+            var exits = GetAvailableExits(location);
+            if (exits.Count > 0)
+            {
+                description.AppendLine($"There are exits to the {string.Join(", ", exits)}.");
+            }
+            else
+            {
+                description.AppendLine("There are no visible exits.");
+            }
+            
+            // Add items in the location
+            if (!string.IsNullOrEmpty(location.Inventory.ItemList))
+            {
+                description.AppendLine($"In this location you can see:\n{location.Inventory.ItemList}");
+            }
+            
+            return description.ToString().TrimEnd();
+        }
+
+        private List<string> GetAvailableExits(Location location)
+        {
+            var exits = new List<string>();
+            
+            // Check for common directions
+            string[] directions = { "north", "south", "east", "west", "up", "down" };
+            
+            foreach (string direction in directions)
+            {
+                if (location.GetPath(direction) != null)
+                {
+                    exits.Add(direction);
+                }
+            }
+            
+            return exits;
         }
 
         private IHaveInventory FetchContainer(Player p, string containerId)

@@ -9,6 +9,7 @@ namespace Swin_Adventure
     public class Location : GameObject, IHaveInventory
     {
         private Inventory _inventory;
+        private List<Path> _paths = new List<Path>();
 
         public Location(string[] ids, string name, string desc) : base(ids, name, desc)
         {
@@ -35,6 +36,21 @@ namespace Swin_Adventure
         public Inventory Inventory
         {
             get { return _inventory; }
+        }
+
+        public void AddPath(Path path)
+        {
+            _paths.Add(path);
+        }
+
+        public Path GetPath(string identifier)
+        {
+            foreach (var path in _paths)
+            {
+                if (path.AreYou(identifier))
+                    return path;
+            }
+            return null;
         }
     }
 }

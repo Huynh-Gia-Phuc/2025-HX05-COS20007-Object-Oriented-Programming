@@ -82,7 +82,8 @@ namespace TestSwin_Adventure
         [Test]
         public void TestInvalidLook_ReturnsError_ForInvalidInputs()
         {
-            Assert.That(_look.Execute(_player, new string[] { "look", "around" }), Does.Contain("don't know how to look"));
+            // When player has no location, 'look around' should return 'You are nowhere.'
+            Assert.That(_look.Execute(_player, new string[] { "look", "around" }), Is.EqualTo("You are nowhere."));
             Assert.That(_look.Execute(_player, new string[] { "hello", "105505856" }), Does.Contain("I don't know how to look like that"));
             Assert.That(_look.Execute(_player, new string[] { "look", "at", "phuc" }), Does.Contain("can't find the phuc"));
         }

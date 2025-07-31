@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "oZzu4YwSV90=",
+  "dgSpecHash": "3zDsxdGRm7g=",
   "success": true,
   "projectFilePath": "E:\\COS20007\\2025-HX05-COS20007-Object-Oriented-Programming\\TestSwin-Adventure\\TestSwin_Adventure.csproj",
   "expectedPackageFiles": [
@@ -16,9 +16,7 @@
     "C:\\Users\\huynh\\.nuget\\packages\\nunit\\3.14.0\\nunit.3.14.0.nupkg.sha512",
     "C:\\Users\\huynh\\.nuget\\packages\\nunit.analyzers\\3.9.0\\nunit.analyzers.3.9.0.nupkg.sha512",
     "C:\\Users\\huynh\\.nuget\\packages\\nunit3testadapter\\4.5.0\\nunit3testadapter.4.5.0.nupkg.sha512",
-    "C:\\Users\\huynh\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.14\\microsoft.netcore.app.ref.8.0.14.nupkg.sha512",
-    "C:\\Users\\huynh\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.14\\microsoft.windowsdesktop.app.ref.8.0.14.nupkg.sha512",
-    "C:\\Users\\huynh\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.14\\microsoft.aspnetcore.app.ref.8.0.14.nupkg.sha512"
+    "C:\\Users\\huynh\\.nuget\\packages\\system.reflection.metadata\\1.6.0\\system.reflection.metadata.1.6.0.nupkg.sha512"
   ],
   "logs": []
 }

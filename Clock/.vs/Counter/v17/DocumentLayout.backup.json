@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "E:\\COS20007\\2025-HX05-COS20007-Object-Oriented-Programming\\Clock\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2AC9C0D3-EB92-4325-A153-5675C8E044EE}|TestCounter\\TestCounter.csproj|e:\\cos20007\\2025-hx05-cos20007-object-oriented-programming\\clock\\testcounter\\unittestcounter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AC9C0D3-EB92-4325-A153-5675C8E044EE}|TestCounter\\TestCounter.csproj|solutionrelative:testcounter\\unittestcounter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{69333964-5B48-4A19-AED3-D153E2193725}|ClockTask.csproj|e:\\cos20007\\2025-hx05-cos20007-object-oriented-programming\\clock\\clocktask.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{69333964-5B48-4A19-AED3-D153E2193725}|ClockTask.csproj|solutionrelative:clocktask.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
@@ -13,10 +17,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{2AC9C0D3-EB92-4325-A153-5675C8E044EE}|TestCounter\\TestCounter.csproj|e:\\cos20007\\2025-hx05-cos20007-object-oriented-programming\\clock\\testcounter\\testcounter.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{2AC9C0D3-EB92-4325-A153-5675C8E044EE}|TestCounter\\TestCounter.csproj|solutionrelative:testcounter\\testcounter.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2AC9C0D3-EB92-4325-A153-5675C8E044EE}|TestCounter\\TestCounter.csproj|e:\\cos20007\\2025-hx05-cos20007-object-oriented-programming\\clock\\testcounter\\unittestcounter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2AC9C0D3-EB92-4325-A153-5675C8E044EE}|TestCounter\\TestCounter.csproj|solutionrelative:testcounter\\unittestcounter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{17A0F38A-B7AF-404D-9802-04D39757A451}|TestClock\\TestClock.csproj|e:\\cos20007\\2025-hx05-cos20007-object-oriented-programming\\clock\\testclock\\unittestclock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -50,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
@@ -80,7 +80,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "TestClock.csproj",
               "DocumentMoniker": "E:\\COS20007\\2025-HX05-COS20007-Object-Oriented-Programming\\Clock\\TestClock\\TestClock.csproj",
               "RelativeDocumentMoniker": "TestClock\\TestClock.csproj",
@@ -93,7 +93,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "TestCounter.csproj",
               "DocumentMoniker": "E:\\COS20007\\2025-HX05-COS20007-Object-Oriented-Programming\\Clock\\TestCounter\\TestCounter.csproj",
               "RelativeDocumentMoniker": "TestCounter\\TestCounter.csproj",
@@ -106,20 +106,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "UnitTestCounter.cs",
               "DocumentMoniker": "E:\\COS20007\\2025-HX05-COS20007-Object-Oriented-Programming\\Clock\\TestCounter\\UnitTestCounter.cs",
               "RelativeDocumentMoniker": "TestCounter\\UnitTestCounter.cs",
               "ToolTip": "E:\\COS20007\\2025-HX05-COS20007-Object-Oriented-Programming\\Clock\\TestCounter\\UnitTestCounter.cs",
               "RelativeToolTip": "TestCounter\\UnitTestCounter.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAowDIAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-28T21:25:26.363Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ClockTask.csproj",
               "DocumentMoniker": "E:\\COS20007\\2025-HX05-COS20007-Object-Oriented-Programming\\Clock\\ClockTask.csproj",
               "RelativeDocumentMoniker": "ClockTask.csproj",

@@ -50,8 +50,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 5,
@@ -62,8 +66,7 @@
               "RelativeToolTip": "obj\\Debug\\net9.0\\ClockTask.AssemblyInfo.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAAAUwA0AAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T21:38:15.013Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-28T21:38:15.013Z"
             },
             {
               "$type": "Document",
@@ -75,8 +78,7 @@
               "RelativeToolTip": "TestClock\\UnitTestClock.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T21:12:31.413Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-28T21:12:31.413Z"
             },
             {
               "$type": "Document",
@@ -88,8 +90,7 @@
               "RelativeToolTip": "TestClock\\TestClock.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-28T21:09:43.84Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-28T21:09:43.84Z"
             },
             {
               "$type": "Document",
@@ -101,8 +102,7 @@
               "RelativeToolTip": "TestCounter\\TestCounter.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-28T21:05:35.339Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-28T21:05:35.339Z"
             },
             {
               "$type": "Document",
@@ -112,7 +112,7 @@
               "RelativeDocumentMoniker": "TestCounter\\UnitTestCounter.cs",
               "ToolTip": "E:\\COS20007\\2025-HX05-COS20007-Object-Oriented-Programming\\Clock\\TestCounter\\UnitTestCounter.cs",
               "RelativeToolTip": "TestCounter\\UnitTestCounter.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAcAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-28T21:25:26.363Z",
               "EditorCaption": ""
@@ -127,8 +127,7 @@
               "RelativeToolTip": "ClockTask.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-28T21:14:47.624Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-28T21:14:47.624Z"
             },
             {
               "$type": "Document",
@@ -140,8 +139,7 @@
               "RelativeToolTip": "obj\\Debug\\net9.0\\.NETCoreApp,Version=v9.0.AssemblyAttributes.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T21:38:13.609Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-28T21:38:13.609Z"
             },
             {
               "$type": "Document",
@@ -153,8 +151,7 @@
               "RelativeToolTip": "Clock.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T21:37:41.88Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-28T21:37:41.88Z"
             },
             {
               "$type": "Document",
@@ -166,8 +163,7 @@
               "RelativeToolTip": "Counter.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T21:37:11.706Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-28T21:37:11.706Z"
             },
             {
               "$type": "Document",
@@ -179,8 +175,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T21:10:58.415Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-28T21:10:58.415Z"
             }
           ]
         }

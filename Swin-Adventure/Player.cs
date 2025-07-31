@@ -68,5 +68,10 @@ namespace Swin_Adventure
             get { return _location; }
             set { _location = value; }
         }
+
+        public void MoveTo(Location location)
+        {
+            this._location = location;
+        }
     }
 }

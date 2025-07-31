@@ -18,8 +18,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -30,8 +34,7 @@
               "RelativeToolTip": "Message.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T17:14:45.062Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-16T17:14:45.062Z"
             },
             {
               "$type": "Document",
@@ -41,7 +44,7 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "E:\\COS20007\\2025-HX05-COS20007-Object-Oriented-Programming\\HelloWorld\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAwwCsAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-16T17:00:36.853Z",
               "EditorCaption": ""

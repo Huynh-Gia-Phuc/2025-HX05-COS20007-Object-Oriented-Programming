@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TestSwin_Adventure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0e8089fa8b56789a77e9b75011b16410d95eae33")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c7de830264f57dd0b431d197b0b31d23132e2b0c")]
 [assembly: System.Reflection.AssemblyProductAttribute("TestSwin_Adventure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TestSwin_Adventure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

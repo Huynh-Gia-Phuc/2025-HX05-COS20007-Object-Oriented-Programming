@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic; // Added for List
 
 namespace Swin_Adventure
 {
@@ -20,9 +21,42 @@ namespace Swin_Adventure
             Item stone = new Item(new string[] { "stone", "rock" }, "smooth stone", "A small, smooth stone lies here.");
             forest.Inventory.Put(stone);
 
-            // Create the player and assign the location
+            // Create fantasy locations
+            Location elfMountain = new Location(new string[] { "elfmountain", "mountain", "elf" }, "Mountain of Elf", "A mystical mountain where elves dwell among the clouds.");
+            Location dwarfMine = new Location(new string[] { "dwarfmine", "mine", "dwarf" }, "Mine of Dwarf", "A deep, echoing mine filled with the sounds of dwarven hammers.");
+            Location enchantedForest = new Location(new string[] { "enchantedforest", "forest", "enchanted" }, "Enchanted Forest", "A magical forest with glowing plants and hidden secrets.");
+            Location dragonCave = new Location(new string[] { "dragoncave", "cave", "dragon" }, "Dragon's Cave", "A dark, smoky cave where a dragon is rumored to sleep.");
+            Location wizardTower = new Location(new string[] { "wizardtower", "tower", "wizard" }, "Wizard's Tower", "A tall, spiraling tower filled with arcane energy.");
+
+            // Add items to each location
+            elfMountain.Inventory.Put(new Item(new string[] { "elvenbow", "bow" }, "Elven Bow", "A finely crafted bow of the elves."));
+            elfMountain.Inventory.Put(new Item(new string[] { "moonstone" }, "Moonstone", "A glowing stone said to hold the power of the moon."));
+
+            dwarfMine.Inventory.Put(new Item(new string[] { "pickaxe" }, "Dwarven Pickaxe", "A sturdy pickaxe used by dwarves."));
+            dwarfMine.Inventory.Put(new Item(new string[] { "mithril" }, "Mithril Ingot", "A rare and precious metal ingot."));
+
+            enchantedForest.Inventory.Put(new Item(new string[] { "fairydust", "dust" }, "Fairy Dust", "Sparkling dust with magical properties."));
+            enchantedForest.Inventory.Put(new Item(new string[] { "ancientoakleaf", "oakleaf" }, "Ancient Oak Leaf", "A leaf from the oldest tree in the forest."));
+
+            dragonCave.Inventory.Put(new Item(new string[] { "dragonscale", "scale" }, "Dragon Scale", "A tough, shimmering scale from a dragon."));
+            dragonCave.Inventory.Put(new Item(new string[] { "goldhoard", "gold" }, "Gold Hoard", "A pile of gold coins and treasures."));
+
+            wizardTower.Inventory.Put(new Item(new string[] { "spellbook" }, "Spellbook", "A book filled with mysterious spells."));
+            wizardTower.Inventory.Put(new Item(new string[] { "crystalball", "crystal" }, "Crystal Ball", "A crystal ball that reveals distant places."));
+
+            // Connect locations with paths
+            elfMountain.AddPath(new Path(new List<string> { "south", "to forest" }, new Direction("south"), enchantedForest));
+            enchantedForest.AddPath(new Path(new List<string> { "north", "to mountain" }, new Direction("north"), elfMountain));
+            enchantedForest.AddPath(new Path(new List<string> { "east", "to mine" }, new Direction("east"), dwarfMine));
+            dwarfMine.AddPath(new Path(new List<string> { "west", "to forest" }, new Direction("west"), enchantedForest));
+            enchantedForest.AddPath(new Path(new List<string> { "south", "to cave" }, new Direction("south"), dragonCave));
+            dragonCave.AddPath(new Path(new List<string> { "north", "to forest" }, new Direction("north"), enchantedForest));
+            dragonCave.AddPath(new Path(new List<string> { "east", "to tower" }, new Direction("east"), wizardTower));
+            wizardTower.AddPath(new Path(new List<string> { "west", "to cave" }, new Direction("west"), dragonCave));
+
+            // Place player in the Enchanted Forest for testing
             Player player = new Player(playerName, playerDesc);
-            player.Location = forest;
+            player.Location = enchantedForest;
 
 
             // Create two items and add to player's inventory
@@ -43,19 +77,22 @@ namespace Swin_Adventure
             //Item coca = new Item(new string[] { "coca" }, "cocacola", "a pack of cocacola powder mix with water to make cocacola, people hate sweet drink so it illegal");
             //pocket.Inventory.Put(coca);
 
-            // Create LookCommand
+            // Create commands and a command processor
             LookCommand look = new LookCommand();
+            MoveCommand moveCommand = new MoveCommand();
+            CommandProcessor commandProcessor = new CommandProcessor();
+            commandProcessor.AddCommand(look);
+            commandProcessor.AddCommand(moveCommand);
 
-            // Loop reading commands from the user, and getting the look command to execute them.
-            Console.WriteLine("\nType commands (e.g., 'look at sword', 'look at potion in bag', 'look at inventory'). Type 'quit' to exit.");
+            // Loop reading commands from the user, and getting the correct command to execute them.
+            Console.WriteLine("\nType commands (e.g., 'look at sword', 'move north', 'look at inventory'). Type 'quit' to exit.");
             while (true)
             {
                 Console.Write("\n> ");
                 string input = Console.ReadLine();
                 if (input == null || input.Trim().ToLower() == "quit")
                     break;
-                string[] commandWords = input.Split(' ', StringSplitOptions.RemoveEmptyEntries);
-                string result = look.Execute(player, commandWords);
+                string result = commandProcessor.ExecuteCommand(player, input);
                 Console.WriteLine(result);
             }
         }

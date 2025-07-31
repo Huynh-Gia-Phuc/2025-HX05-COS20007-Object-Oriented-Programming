@@ -13,11 +13,11 @@ namespace HelloWorld
             List<Message> messages = new List<Message>()
             {
 
-            new Message("Hello, World! Greetings from Messages Object. Hi Mom"),
-            new Message("Hello, World! Greetings from Messages Object. Hi Dad"),
-            new Message("Hello, World! Greetings from Messages Object. Hi Swinfood"),
-            new Message("Hello, World! Greetings from Messages Object. Hi my crs that i like but do not have gut to talk to"),
-            new Message("Hello, World! Greetings from Messages Object. Hi random people who try to use this application")
+            new Message("Hi Mom, how are you?"),
+            new Message("Hi DAD, how are you?"),
+            new Message("Hi Swinfood, how are you?"),
+            new Message("Welcome Admin"),
+            new Message("Welcome, nice to me you.")
 
             };
             Console.WriteLine("Enter name: ");
@@ -35,7 +35,7 @@ namespace HelloWorld
             {
                 messages[2].Print();
             }
-            else if (name == "N")
+            else if (name == "Phuc")
             {
                 messages[3].Print();
             }
